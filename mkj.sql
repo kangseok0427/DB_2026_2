@@ -14,7 +14,7 @@ create table 제품(
     단가 int,
     제조업체 varchar(20),
     primary key(제품번호),
-    check(재고량>=0 and 재고량 <=10000)
+    check(재고량 >=0 and 재고량 <=10000)
 );
 
 create table 주문(
