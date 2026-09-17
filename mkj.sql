@@ -1,36 +1,17 @@
-create table 고객 (
-    고객아이디 VARCHAR(20) not null primary key,
-    고객이름 VARCHAR(20) not null,
-    나이 int,
-    등급 VARCHAR(10) not null,
-    직업 VARCHAR(30),
-    적립금 int default 0
-);
+select * from 고객
+    where 나이 is not null;
+    
+select 고객이름, 등급, 나이 from 고객
+    order by 나이 desc;
+    
+select 고객이름, 등급, 나이 from 고객
+    where 나이 is not null
+    order by 나이 asc;
+    
+select 고객이름, 등급, 나이 from 고객
+    where 나이 >= 25
+    order by 등급 desc;
 
-create table 제품(
-    제품번호 VARCHAR(5) not null,
-    제품명 varchar(20),
-    재고량 int,
-    단가 int,
-    제조업체 varchar(20),
-    primary key(제품번호),
-    check(재고량 >=0 and 재고량 <=10000)
-);
-
-create table 주문(
-    주문번호 varchar(10) not null primary key,
-    주문고객 varchar(20),
-    주문제품 varchar(5),
-    수량 int,
-    배송지 varchar(50),
-    주문일자 date,
-    foreign key(주문고객) references 고객(고객아이디),
-    foreign key(주문제품) references 제품(제품번호)
-);
-
-create table 배송업체(
-    업체번호 varchar(5) not null,
-    업체명 varchar(20),
-    주소 varchar(100),
-    전화번호 varchar(100)
-);
+select 주문고객, 주문제품, 수량, 주문일자 from 주문
+    where 수량 >= 10
+    order by 주문제품, 수량 desc;
