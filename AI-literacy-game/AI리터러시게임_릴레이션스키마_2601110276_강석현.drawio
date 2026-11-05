@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="ai-literacy-schema" name="릴레이션 스키마">
+    <mxGraphModel dx="2180" dy="1550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2180" pageHeight="1550" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="AI 리터러시 게임 릴레이션 스키마" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=38;fontColor=#000000;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="270" y="40" width="1700" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="author" value="2601110276 강석현" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=24;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="270" y="112" width="1700" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="밑줄  기본키(PK)       진한 바탕  외래키(FK)" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=23;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="270" y="165" width="1700" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="member-label" value="회원 릴레이션" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=24;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="20" y="250" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="member-0" value="회원아이디" style="rounded=0;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#000000;fontStyle=4;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="270" y="250" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="member-1" value="비밀번호 해시값" style="rounded=0;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="440" y="250" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="member-2" value="닉네임" style="rounded=0;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="670" y="250" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="member-3" value="가입일" style="rounded=0;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="820" y="250" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mission-label" value="미션 릴레이션" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=24;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="20" y="378" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mission-0" value="미션번호" style="rounded=0;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#000000;fontStyle=4;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="270" y="378" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mission-1" value="제목" style="rounded=0;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="420" y="378" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mission-2" value="학습목표" style="rounded=0;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="570" y="378" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mission-3" value="미션설명" style="rounded=0;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="740" y="378" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mission-4" value="난이도" style="rounded=0;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="910" y="378" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mission-5" value="통과기준점수" style="rounded=0;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="378" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attempt-label" value="도전기록 릴레이션" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=24;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="20" y="506" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attempt-0" value="도전번호" style="rounded=0;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#000000;fontStyle=4;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="270" y="506" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attempt-1" value="회원아이디" style="rounded=0;strokeColor=#000000;fillColor=#333333;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#ffffff;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="420" y="506" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attempt-2" value="미션번호" style="rounded=0;strokeColor=#000000;fillColor=#333333;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#ffffff;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="590" y="506" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attempt-3" value="이전도전번호" style="rounded=0;strokeColor=#000000;fillColor=#333333;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#ffffff;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="740" y="506" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attempt-4" value="도전일시" style="rounded=0;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="930" y="506" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attempt-5" value="사용모델명" style="rounded=0;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="506" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attempt-6" value="변환규칙버전" style="rounded=0;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="506" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attempt-7" value="생성프롬프트" style="rounded=0;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="506" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attempt-8" value="AI응답" style="rounded=0;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="506" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attempt-9" value="실행상태" style="rounded=0;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="506" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="block-label" value="블록구성 릴레이션" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=24;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="20" y="634" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="block-0" value="블록구성번호" style="rounded=0;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#000000;fontStyle=4;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="270" y="634" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="block-1" value="도전번호" style="rounded=0;strokeColor=#000000;fillColor=#333333;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#ffffff;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="470" y="634" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="block-2" value="블록유형" style="rounded=0;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="620" y="634" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="block-3" value="입력내용" style="rounded=0;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="770" y="634" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="block-4" value="배치순서" style="rounded=0;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="940" y="634" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="evaluation-label" value="평가결과 릴레이션" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=24;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="20" y="762" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="evaluation-0" value="평가번호" style="rounded=0;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#000000;fontStyle=4;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="270" y="762" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="evaluation-1" value="도전번호" style="rounded=0;strokeColor=#000000;fillColor=#333333;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#ffffff;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="420" y="762" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="evaluation-2" value="평가기준버전" style="rounded=0;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="570" y="762" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="evaluation-3" value="규칙검사결과" style="rounded=0;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="770" y="762" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="evaluation-4" value="AI평가결과" style="rounded=0;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="970" y="762" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="evaluation-5" value="총점" style="rounded=0;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="762" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="evaluation-6" value="피드백" style="rounded=0;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="762" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="evaluation-7" value="평가상태" style="rounded=0;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1.5;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#000000;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="762" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fk-title" value="외래키 참조" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=27;fontColor=#000000;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="270" y="900" width="1700" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fk-0" value="도전기록.회원아이디  →  회원.회원아이디" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=23;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="270" y="954" width="1700" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fk-1" value="도전기록.미션번호  →  미션.미션번호" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=23;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="270" y="998" width="1700" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fk-2" value="도전기록.이전도전번호  →  도전기록.도전번호" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=23;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1042" width="1700" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fk-3" value="블록구성.도전번호  →  도전기록.도전번호" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=23;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1086" width="1700" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fk-4" value="평가결과.도전번호  →  도전기록.도전번호" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=23;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1130" width="1700" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="constraints-title" value="추가 제약조건" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=27;fontColor=#000000;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1205" width="1700" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="constraint-0" value="평가결과의 도전번호는 UNIQUE(중복 불가)로 지정하여 도전당 평가결과가 최대 1개가 되게 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=23;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1260" width="1740" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="constraint-1" value="블록구성의 (도전번호, 블록유형) 조합은 중복될 수 없다. 블록유형은 여섯 가지로 제한한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=23;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1308" width="1740" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="constraint-2" value="첫 도전의 이전도전번호는 NULL(값 없음)이다. 이전 도전은 같은 회원의 같은 미션이어야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=23;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1356" width="1740" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="constraint-3" value="AI 평가가 미완료이면 평가상태로 구분하고, 총점은 NULL로 저장한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=23;fontColor=#000000;fontStyle=0;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1404" width="1740" height="42" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
