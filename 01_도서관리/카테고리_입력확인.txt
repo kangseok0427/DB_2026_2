@@ -1,0 +1,10 @@
+INSERTED 10
+INSERTED 20
+INSERTED 30
+INSERTED 40
+COMMIT completed
+10 | IT도서 | IT, AI 관련 교육 및 기술서적들
+20 | 소설 | 국내 및 국외 소설
+30 | 수필 | 국내 및 국외 수필
+40 | 시 | 유명 시집
+VERIFIED all 4 categories using a new connection

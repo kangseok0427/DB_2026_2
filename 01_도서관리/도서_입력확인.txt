@@ -1,0 +1,11 @@
+INSERTED 1001
+INSERTED 1002
+INSERTED 1003
+COMMIT completed
+1001 | 처음 배우는 자바 | 김영한 | 25000 | 20 | 10 | 1
+1002 | 스프링부트 완전정복 | 박부완 | 35000 | 30 | 10 | 2
+1003 | 개미 | 베르나르베르베르 | 20000 | 10 | 20 | 3
+JOIN VERIFIED 1001 | 한빛아카데미 | IT도서
+JOIN VERIFIED 1002 | 생능출판사 | IT도서
+JOIN VERIFIED 1003 | 민음사 | 소설
+VERIFIED using a new connection
